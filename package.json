@@ -1,0 +1,32 @@
+{
+  "name": "proxyreq",
+  "version": "1.0.0",
+  "description": "Proxy Request with superagent",
+  "keywords": [],
+  "license": "Unlicense",
+  "author": "Commenthol <commenthol@gmail.com>",
+  "main": "src",
+  "scripts": {
+    "cover": "letool coverage",
+    "lint": "letool lint",
+    "test": "letool mocha"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "stage-2"
+    ]
+  },
+  "dependencies": {
+    "superagent": "^3.8.2"
+  },
+  "devDependencies": {
+    "asyncc": "^2.0.1",
+    "express": "^4.16.2",
+    "letool": "latest",
+    "supertest": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}
